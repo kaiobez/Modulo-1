@@ -7,8 +7,6 @@ Algoritmo "calculadora."
 
 
 Var
-
-
 // Seção de Declarações das variáveis 
 x: real
 y: real
@@ -18,23 +16,19 @@ opcao: caractere
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-
 escreval("escolha uma opçao: * Multiplicar;  - Subtrair; + Soma; / Divisao: ")
-
 leia (opcao)
 
 limpatela
 
   escreva("digite um numero: ")
-  
-leia(x)
+  leia(x)
 
 limpatela
 
 
 
-  escreva("digite outro numero: ")
-  
+  escreva("digite outro numero: ") 
 leia(y)
 
  limpatela
@@ -42,26 +36,19 @@ leia(y)
 escolha opcao
 
 caso = "*"
-
-      r <- x * Y
+   r <- x * Y
       
 caso = "-"
-
       r <- x - Y
       
 caso = "+"
-
       r <- x + Y
       
 caso = "/"
-
       r <- x/Y
 
  fimescolha
  
-
-
-
  escreva (x)
  escreva (opcao)
  escreva (y)
