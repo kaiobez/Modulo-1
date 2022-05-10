@@ -16,44 +16,38 @@ opcao: caractere
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-escreval("escolha uma opçao: * Multiplicar;  - Subtrair; + Soma; / Divisao: ")
+escreval("MENU")
+escreval(" / para Divisao: ")
+escreval (" - para Subtrair ")
+escreval (" + para Somar ")
+escreval (" * para Multiplicar ")
+escreva ("escolha uma dessas opções: ")
+
+
 leia (opcao)
-
 limpatela
 
-  escreva("digite um numero: ")
-  leia(x)
-
+  escreval("digite um numero: ")
+leia(x)
 limpatela
 
 
 
-  escreva("digite outro numero: ") 
+  escreval("digite outro numero: ")
 leia(y)
 
  limpatela
- 
 escolha opcao
-
 caso = "*"
-   r <- x * Y
-      
+      r <- x * Y
 caso = "-"
       r <- x - Y
-      
 caso = "+"
       r <- x + Y
-      
 caso = "/"
       r <- x/Y
+      
 
- fimescolha
- 
- escreva (x)
- escreva (opcao)
- escreva (y)
-escreva("=")
-escreva(r)
 
 
 
