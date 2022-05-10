@@ -48,7 +48,7 @@ caso = "/"
       r <- x/Y
       
 
-
+escreval(x, opcao, y, "=", r) 
 
 
 Fimalgoritmo
