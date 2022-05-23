@@ -1,0 +1,15 @@
+#l{
+    margin: auto;
+    text-align: center;
+    font-size: 25px; 
+    width: 600px;
+    height: 400px ;
+border-style: none;
+border-color: black;
+}
+
+#header-box{
+    background-color: seagreen;
+    color:white;
+}
+
